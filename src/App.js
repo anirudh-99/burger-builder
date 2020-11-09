@@ -10,7 +10,7 @@ import Auth from './containers/Auth/Auth';
 import Logout from './containers/Auth/Logout/Logout';
 import * as actions from './store/actions/index';
 
-//class component
+//this is the main component
 class App extends Component {
   componentDidMount() {
     this.props.onTryAutoSignup();
